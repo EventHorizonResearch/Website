@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Mandalore';
+    src: url(font/mandaloreital.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Mandalore';
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+    margin-left: 5px;
+    text-align: left;
+}
+
+h2{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Mandalore';
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    top: 0%;
+}
+
+.abouttext{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Arial';
+    font-size: 18;
+    color: white;
+    text-align: center;
+    top: 10%;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+}
+
+ul li a{
+    font-family: 'Mandalore';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+ul .dev{
+   display: inline-block;
+}
+
+ul li a:hover{
+    color: rgb(50, 50, 50);
+}
+
+ul li ul{
+    position: absolute;
+    display: inline-block;
+}
+
+ul li ul li a{
+    position: relative;
+    font-size: 16px;
+    display: none;
+    line-height: 16px;
+    top: 3px;
+    left: 5px;
+}
+ul .dev:hover ul li a{
+    display: initial;
+}
+
+img{
+    width: 100%;
+    margin: 0px auto;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .title{
+        font-size: 72;
+        text-align: left;
+    }
+
+    h2{
+        font-size: 72px;
+        background-color: black;
+    }
+
+    .abouttext{
+        width: 600px;
+        background-color: black;
+        opacity: .9;
+    }
+
+    ul li a{
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    ul li ul li a{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+}
+
+@media only screen and (min-width: 1365px) {
+    
+    .homebody{
+        background-image: url(img/EventHorizonLogoTransparent.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .title{
+        font-size: 120;
+        text-align: left;
+    }
+
+    h2{
+        position: absolute;
+        font-size: 90px;
+        background: none;
+        top: 5;
+    }
+
+    .abouttext{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+    }
+
+    ul li a{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    ul li ul li a{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    img{
+        display: none;
+    }
+
+}
