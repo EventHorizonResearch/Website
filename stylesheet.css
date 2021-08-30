@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-    position: relative;
+    
     width: 100%;
     margin: 0 auto;
     font-family: 'Mandalore';
@@ -34,7 +34,7 @@ h2{
 }
 
 .abouttext{
-    position: relative;
+    
     width: 100%;
     margin: 0 auto;
     font-family: 'Arial';
