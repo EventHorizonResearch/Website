@@ -85,7 +85,7 @@ ul .dev:hover ul li a{
 img{
     width: 100%;
     margin: 0px auto;
-    position: absolute;
+    position: relative;
     top: 20%;
     z-index: -1;
 }
