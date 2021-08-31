@@ -75,8 +75,8 @@ ul .dev ul li a{
     font-size: 16px;
     display: none;
     line-height: 16px;
-    top: 0px;
-    left: 35px;
+    top: 3px;
+    left: 5px;
 }
 ul .dev:hover ul li a{
     display: initial;
@@ -155,8 +155,7 @@ img{
     ul li ul li a{
         font-size: 24px;
         line-height: 28px;
-        top: 3px;
-        left: 5px;
+        
     }
 
     img{
