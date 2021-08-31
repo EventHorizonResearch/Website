@@ -41,7 +41,7 @@ h2{
     font-size: 18;
     color: white;
     text-align: center;
-    top: 10%;
+    top: 0%;
 }
 
 ul {
@@ -85,8 +85,8 @@ ul .dev:hover ul li a{
 img{
     width: 100%;
     margin: 0px auto;
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 0%;
     z-index: -1;
 }
 
