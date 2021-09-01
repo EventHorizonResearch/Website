@@ -70,6 +70,10 @@ ul li ul{
     display: inline-block;
 }
 
+ul .dev ul li{
+    display: inline-block;
+}
+
 ul .dev ul li a{
     position: relative;
     font-size: 16px;
