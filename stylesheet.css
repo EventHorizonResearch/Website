@@ -65,7 +65,7 @@ ul li a:hover{
     color: rgb(50, 50, 50);
 }
 
-ul li ul{
+ul .dev ul{
     position: absolute;
     display: inline-block;
 }
