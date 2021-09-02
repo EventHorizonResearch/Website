@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+html{
+    min-height: 100%;
+}
+
 body{
     background-color: black;
 }
@@ -126,10 +130,14 @@ img{
 }
 
 @media only screen and (min-width: 1365px) {
+    
 
     .homebody{
+    
         background-image: url(img/EventHorizonLogoTransparent.png);
-        background-size: cover; 
+        background-size: cover;
+        background-position: center;
+        
     }
 
     h1{
