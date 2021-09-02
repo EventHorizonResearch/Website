@@ -126,15 +126,14 @@ img{
 }
 
 @media only screen and (min-width: 1365px) {
-    
+
     .homebody{
         background-image: url(img/EventHorizonLogoTransparent.png);
-        background-size: cover;
-        background-position: center;
+        background-size: cover; 
     }
 
-    .title{
-        font-size: 120;
+    h1{
+        font-size: 120px;
         text-align: left;
     }
 
