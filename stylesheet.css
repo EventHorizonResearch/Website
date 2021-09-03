@@ -98,9 +98,9 @@ ul .dev:hover ul li a{
 
 .logo_gal{
     position: absolute;
-    width: 35%;
+    width: 60%;
     margin: 0px auto;
-    top: 8%;
+    top: 18%;
     left: 0;
     right: 0;
 }
@@ -236,4 +236,12 @@ ul .dev:hover ul li a{
         display: none;
     }
     
+    .logo_gal{
+        position: absolute;
+        width: 35%;
+        margin: 0px auto;
+        top: 8%;
+        left: 0;
+        right: 0;
+    }
 }
