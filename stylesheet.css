@@ -15,6 +15,7 @@ html{
 body{
     background-color: black;
     margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -87,12 +88,65 @@ ul .dev:hover ul li a{
     display: initial;
 }
 
-img{
+.logo{
     width: 100%;
     margin: 0px auto;
     position: relative;
     top: 0%;
     z-index: -1;
+}
+
+.logo_gal{
+    position: absolute;
+    width: 35%;
+    margin: 0px auto;
+    top: 8%;
+    left: 0;
+    right: 0;
+}
+
+.workbench{
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    left: 4.5%;
+}
+
+.prusa{
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    left: 5.5%;
+}
+
+.phrozen{
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        margin-top: 25px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        left: 4.5%;
+}
+
+.forearm{
+    position: relative;
+    display: inline-block;
+    width: 45%;
+    margin-top: 25px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    left: 5.5%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -171,8 +225,8 @@ img{
         line-height: 28px;
     }
 
-    img{
+    .logo{
         display: none;
     }
-
+    
 }
