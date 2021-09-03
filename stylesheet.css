@@ -96,13 +96,8 @@ ul .dev:hover ul li a{
     z-index: -1;
 }
 
-.logo_gal{
-    position: absolute;
-    width: 60%;
-    margin: 0px auto;
-    top: 18%;
-    left: 0;
-    right: 0;
+.logogal{
+    display: none;
 }
 
 .workbench{
@@ -133,7 +128,7 @@ ul .dev:hover ul li a{
         position: relative;
         display: inline-block;
         width: 45%;
-        margin-top: 25px;
+        margin-top: 5px;
         border-style: solid;
         border-width: 2px;
         border-color: white;
@@ -145,7 +140,7 @@ ul .dev:hover ul li a{
     position: relative;
     display: inline-block;
     width: 45%;
-    margin-top: 25px;
+    margin-top: 5px;
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -192,7 +187,6 @@ ul .dev:hover ul li a{
     
 
     .homebody{
-    
         background-image: url(img/EventHorizonLogoTransparent.png);
         background-size: cover;
         background-position: center;
@@ -236,12 +230,37 @@ ul .dev:hover ul li a{
         display: none;
     }
     
-    .logo_gal{
-        position: absolute;
-        width: 35%;
+    .logogal{
+        display: initial;
+        position: fixed;
         margin: 0px auto;
-        top: 8%;
+        top: -71px;
         left: 0;
-        right: 0;
+        z-index: -1;
     }
+
+    .phrozen{
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        border-radius: 20px;
+        left: 4.5%;
+    }
+    
+    .forearm{
+        position: relative;
+        display: inline-block;
+        width: 45%;
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+        border-radius: 20px;
+        left: 5.5%;
+    }
+
 }
