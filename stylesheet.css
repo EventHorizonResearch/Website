@@ -18,6 +18,10 @@ body{
     padding: 0;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 h1{
     font-family: 'Mandalore';
     font-size: 50px;
@@ -193,6 +197,13 @@ ul .dev:hover ul li a{
         
     }
 
+    .gallerybody{
+        background-image: url(img/EventHorizonLogoTransparent.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+    }
+
     h1{
         font-size: 120px;
         letter-spacing: 3px;
@@ -230,14 +241,14 @@ ul .dev:hover ul li a{
         display: none;
     }
     
-    .logogal{
+    /*.logogal{
         display: initial;
         position: fixed;
         margin: 0px auto;
-        top: -71px;
+        top: -72px;
         left: 0;
         z-index: -1;
-    }
+    }*/
 
     .phrozen{
         position: relative;
