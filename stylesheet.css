@@ -101,55 +101,49 @@ ul .dev:hover ul li a{
 }
 
 .logogal{
-    display: none;
+    display: initial;
+    position: absolute;
+    width: 100%;
+    margin: 0px auto;
+    left: 0;
+    top: 0%;
+    z-index: -1;
 }
 
 .workbench{
     position: relative;
-    display: inline-block;
     width: 45%;
-    margin-top: 25px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 20px;
-    left: 4.5%;
+    margin-top: 15px;
+    display:inline-block;
+    left: 4%;
+    border-radius: 5px;
 }
 
 .prusa{
     position: relative;
-    display: inline-block;
     width: 45%;
-    margin-top: 25px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 20px;
-    left: 5.5%;
+    margin-top: 15px;
+    display: inline-block;
+    left: 6%;
+    border-radius: 5px;
 }
 
 .phrozen{
-        position: relative;
-        display: inline-block;
-        width: 45%;
-        margin-top: 5px;
-        border-style: solid;
-        border-width: 2px;
-        border-color: white;
-        border-radius: 20px;
-        left: 4.5%;
+    position: relative;
+    width: 45%;
+    margin-top: 3px;
+    display:inline-block;
+    left: 4%;
+    border-radius: 5px;
 }
 
 .forearm{
     position: relative;
-    display: inline-block;
     width: 45%;
-    margin-top: 5px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 20px;
-    left: 5.5%;
+    margin-top: 3px;
+    display: inline-block;
+    left: 6%;
+    border-radius: 5px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -240,38 +234,45 @@ ul .dev:hover ul li a{
     .logo{
         display: none;
     }
-    
-    /*.logogal{
-        display: initial;
-        position: fixed;
-        margin: 0px auto;
-        top: -72px;
-        left: 0;
-        z-index: -1;
-    }*/
 
-    .phrozen{
-        position: relative;
-        display: inline-block;
+    .logogal{
+        display: none;
+    }
+    
+    .workbench{
+        
         width: 45%;
-        margin-top: 20px;
-        border-style: solid;
-        border-width: 2px;
-        border-color: white;
-        border-radius: 20px;
+        margin-top: 30px;
+        display:inline-block;
         left: 4.5%;
+        border-radius: 10px;
+    }
+    
+    .prusa{
+        
+        width: 45%;
+        margin-top: 30px;
+        display: inline-block;
+        left:5.5%;
+        border-radius: 10px;
+    }
+    
+    .phrozen{
+        
+        width: 45%;
+        margin-top: 15px;
+        display:inline-block;
+        left: 4.5%;
+        border-radius: 5px;
     }
     
     .forearm{
-        position: relative;
-        display: inline-block;
+        
         width: 45%;
-        margin-top: 20px;
-        border-style: solid;
-        border-width: 2px;
-        border-color: white;
-        border-radius: 20px;
+        margin-top: 15px;
+        display: inline-block;
         left: 5.5%;
+        border-radius: 10px;
     }
 
 }
