@@ -55,6 +55,10 @@ h2{
     top: 0%;
 }
 
+ul{
+    position: relative;
+}
+
 ul li a{
     font-family: 'Mandalore';
     font-size: 18px;
@@ -68,9 +72,10 @@ ul .dev{
 }
 
 ul .dev ul{
-    position: relative;
+    position: absolute;
     list-style: none;
-    float: right;
+    left: 85px;
+    top: -0px;
 }
 
 ul .dev ul li{
