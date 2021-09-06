@@ -57,6 +57,12 @@ h2{
 
 ul{
     position: relative;
+    margin-left: 5px;
+}
+
+ul .dev{
+    position: relative;
+    display: inline-block;
 }
 
 ul li a{
@@ -66,16 +72,14 @@ ul li a{
     text-decoration: none;
 }
 
-ul .dev{
-    position: relative;
-    display: inline-block;
-}
-
 ul .dev ul{
     position: absolute;
     list-style: none;
-    left: 85px;
-    top: -0px;
+    background: black;
+    left: 80px;
+    top: 0px;
+    z-index: 1;
+    white-space: nowrap;
 }
 
 ul .dev ul li{
