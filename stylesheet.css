@@ -80,6 +80,10 @@ ul li a:hover{
     color: rgb(36, 36, 36);
 }
 
+ul .dev{
+    padding-right: 10px;
+}
+
 ul .dev ul{
     position: absolute;
     list-style: none;
@@ -234,10 +238,6 @@ ul .dev:hover ul li a{
         font-size: 36px;
     }
 
-    ul .dev{
-        padding-right: 10px;
-    }
-    
     ul .dev ul{
         position: absolute;
         display: inline-block;
