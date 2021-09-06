@@ -8,6 +8,10 @@
     margin: 0;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 html{
     min-height: 100%;
 }
@@ -67,7 +71,7 @@ ul .dev{
 
 ul li a{
     font-family: 'Mandalore';
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     text-decoration: none;
 }
@@ -76,8 +80,8 @@ ul .dev ul{
     position: absolute;
     list-style: none;
     background: black;
-    left: 80px;
-    top: 0px;
+    left: 105px;
+    top: 1px;
     z-index: 1;
     white-space: nowrap;
 }
@@ -87,7 +91,7 @@ ul .dev ul li{
 }
 
 ul .dev ul li a{
-    font-size: 16px;
+    font-size: 20px;
     display: none;
 }
 
@@ -167,7 +171,17 @@ ul .dev:hover ul li a{
         opacity: .9;
     }
 
-    
+    ul li a{
+        font-size: 36px;
+    }
+
+    ul .dev ul{
+        left: 160px;
+    }
+
+    ul .dev ul li a{
+        font-size: 30px;
+    }
 
 }
 
@@ -212,6 +226,23 @@ ul .dev:hover ul li a{
         right: 0;
     }
 
+    ul li a{
+        font-size: 36px;
+    }
+
+    ul .dev ul{
+        position: absolute;
+        left: 160px;
+        list-style: none;
+        background: none;
+        display: inline-block;
+        z-index: 1;
+        white-space: nowrap;
+    }
+
+    ul .dev ul li a{
+        font-size: 28px;
+    }
     
 
     .logo{
