@@ -18,9 +18,9 @@ body{
     padding: 0;
 }
 
-/*.abouttext::-webkit-scrollbar{
+.abouttext::-webkit-scrollbar{
     display: none;
-}*/
+}
 
 h1{
     position: relative;
@@ -53,6 +53,13 @@ h2{
     color: white;
     text-align: center;
     top: 0%;
+}
+
+ul li a{
+    font-family: 'Mandalore';
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
 }
 
 .logo{
