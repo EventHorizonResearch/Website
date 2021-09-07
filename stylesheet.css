@@ -183,6 +183,10 @@ ul .dev:hover ul li a{
         font-size: 36px;
     }
 
+    ul .dev{
+        padding-right: 50px;
+    }
+
     ul .dev ul{
         left: 160px;
     }
