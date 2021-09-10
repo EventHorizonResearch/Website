@@ -50,12 +50,13 @@ h2{
 
 .abouttext{
     position: relative;
+    text-indent: 50px;
+    text-align: justify;
     width: 100%;
     margin: 0 auto;
     font-family: 'Arial';
     font-size: 18;
     color: white;
-    text-align: center;
     top: 0%;
 }
 
@@ -105,24 +106,6 @@ ul .dev ul li a{
 
 ul .dev:hover ul li a{
     display: initial;
-}
-
-.logo{
-    width: 100%;
-    margin: 0px auto;
-    position: absolute;
-    top: 25%;
-    z-index: -1;
-}
-
-.logogal{
-    display: initial;
-    position: absolute;
-    width: 100%;
-    margin: 0px auto;
-    left: 0;
-    top: 0%;
-    z-index: -1;
 }
 
 .workbench{
@@ -207,12 +190,12 @@ ul .dev:hover ul li a{
         
     }
 
-    .gallerybody{
+    /*.gallerybody{
         background-image: url(img/EventHorizonLogoTransparent.png);
         background-size: cover;
         background-position: center;
         position: absolute;
-    }
+    }*/
 
     .title{
         font-size: 120px;
@@ -222,13 +205,15 @@ ul .dev:hover ul li a{
 
     h2{
         position: absolute;
-        font-size: 120px;
-        text-align: right;
-        top: 0;
-        right: 20px;
+        display: inline-block;
+        font-size: 100px;
+        text-align: center;
+        top: 30%;
+        z-index: -1;
     }
 
     .abouttext{
+        text-indent: 50px;
         position: absolute;
         font-size: 20px;
         text-align: justify;
@@ -259,10 +244,6 @@ ul .dev:hover ul li a{
     .logo{
         display: none;
     }
-
-    .logogal{
-        display: none;
-    }
     
     .workbench{
         
@@ -274,7 +255,6 @@ ul .dev:hover ul li a{
     }
     
     .prusa{
-        
         width: 45%;
         margin-top: 30px;
         display: inline-block;
